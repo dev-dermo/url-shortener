@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL shortener for freeCodeCamp project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diarmuid Murphy",
+  "license": "ISC",
+  "dependencies": {
+    "base62": "^1.2.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "valid-url": "^1.0.9"
+  }
+}
