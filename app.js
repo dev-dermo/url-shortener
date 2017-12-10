@@ -5,7 +5,7 @@ var base62 = require('base62');
 var validUrl = require('valid-url');
 var Url = require('./Url.model');
 var mongoose = require('mongoose');
-var db = 'mongodb://admin:password1@ds119476.mlab.com:19476/short-urls';
+var db = process.env.SECRET;
 // var db = 'mongodb://localhost:27017/test';
 mongoose.connect(db);
 
